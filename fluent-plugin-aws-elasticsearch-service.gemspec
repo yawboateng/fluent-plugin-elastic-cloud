@@ -25,6 +25,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_runtime_dependency "fluentd", "~> 0"
   spec.add_runtime_dependency "fluent-plugin-elasticsearch", "~> 1.0"
-  spec.add_runtime_dependency "aws-sdk", "~> 2"
-  spec.add_runtime_dependency "faraday_middleware-aws-signers-v4", ">= 0.1.0", "< 0.1.2"
 end
